@@ -2,7 +2,6 @@
     "data": [
         {
             "time": 1,
-            "perf": 10,
             "processes": [
                 {
                     "game1": {
@@ -12,7 +11,7 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 9
+                        "cpu_usage": 80
                     }
                 },
                 {
@@ -23,14 +22,13 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 1
+                        "cpu_usage": 80
                     }
                 }
             ]
         },
         {
-            "time": 20,
-            "perf": 30,
+            "time": 1,
             "processes": [
                 {
                     "game1": {
@@ -40,7 +38,7 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 10
+                        "cpu_usage": 80
                     }
                 },
                 {
@@ -51,14 +49,13 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 20
+                        "cpu_usage": 80
                     }
                 }
             ]
         },
         {
-            "time": 30,
-            "perf": 40,
+            "time": 1,
             "processes": [
                 {
                     "game1": {
@@ -68,7 +65,7 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 30
+                        "cpu_usage": 80
                     }
                 },
                 {
@@ -79,14 +76,13 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 10
+                        "cpu_usage": 80
                     }
                 }
             ]
         },
         {
-            "time": 40,
-            "perf": 10,
+            "time": 1,
             "processes": [
                 {
                     "game1": {
@@ -96,24 +92,7 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 10
-                    }
-                }
-            ]
-        },
-        {
-            "time": 50,
-            "perf": 20,
-            "processes": [
-                {
-                    "game1": {
-                        "path": "/home/gamepath",
-                        "threads": [
-                            "thread1",
-                            "thread2",
-                            "thread3"
-                        ],
-                        "cpu_usage": 10
+                        "cpu_usage": 80
                     }
                 },
                 {
@@ -124,14 +103,13 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 10
+                        "cpu_usage": 80
                     }
                 }
             ]
         },
         {
-            "time": 60,
-            "perf": 20,
+            "time": 1,
             "processes": [
                 {
                     "game1": {
@@ -141,7 +119,7 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 10
+                        "cpu_usage": 80
                     }
                 },
                 {
@@ -152,14 +130,13 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 10
+                        "cpu_usage": 80
                     }
                 }
             ]
         },
         {
-            "time": 70,
-            "perf": 10,
+            "time": 1,
             "processes": [
                 {
                     "game1": {
@@ -169,10 +146,48 @@
                             "thread2",
                             "thread3"
                         ],
-                        "cpu_usage": 10
+                        "cpu_usage": 80
+                    }
+                },
+                {
+                    "game2": {
+                        "path": "/home/gamepath",
+                        "threads": [
+                            "thread1",
+                            "thread2",
+                            "thread3"
+                        ],
+                        "cpu_usage": 80
                     }
                 }
             ]
-        }
+        },
+        {
+            "time": 1,
+            "processes": [
+                {
+                    "game1": {
+                        "path": "/home/gamepath",
+                        "threads": [
+                            "thread1",
+                            "thread2",
+                            "thread3"
+                        ],
+                        "cpu_usage": 80
+                    }
+                },
+                {
+                    "game2": {
+                        "path": "/home/gamepath",
+                        "threads": [
+                            "thread1",
+                            "thread2",
+                            "thread3"
+                        ],
+                        "cpu_usage": 80
+                    }
+                }
+            ]
+        },
     ]
 }

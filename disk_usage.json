@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "time": 1,
+            "usage": 20
+        },
+        {
+            "time": 20,
+            "usage": 30
+        },
+        {
+            "time": 30,
+            "usage": 40
+        },
+        {
+            "time": 40,
+            "usage": 50
+        },
+        {
+            "time": 50,
+            "usage": 20
+        },
+        {
+            "time": 60,
+            "usage": 20
+        },
+        {
+            "time": 70,
+            "usage": 50
+        }
+    ]
+}
