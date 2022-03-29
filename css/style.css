@@ -16,15 +16,38 @@ body{
 }
 
 .container{
-    width: 1000px;
+    width: 50%;
     /* height: 300px; */
     position: static;
+    float: left;
+    margin: 20px;
+    padding: 20px;
 }
 
 .container2{
-    width: 1000px;
+    width: 50%;
     /* height: 300px; */
     position: static;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+    align-items: center;
+}
+.container3{
+    width: 50%;
+    /* height: 300px; */
+    position: static;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container4{
+    width: 40%;
+    /* height: 300px; */
+    position: static;
+    float: right;
 }
 
 h1{
@@ -37,4 +60,12 @@ h1{
 
 #canvas2{
     width: 100%
+}
+
+#canvas3{
+    width: 100%;
+}
+
+#canvas4{
+    width: 100%;
 }
